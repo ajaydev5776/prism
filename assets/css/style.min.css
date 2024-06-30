@@ -1876,10 +1876,12 @@ form .form-control:focus {
     }
 
     .header .offcanvas {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .8);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         width: 100vw;
+        height: 100vh;
+        border: none;
     }
 
     .header .offcanvas .offcanvas-header {
@@ -1888,6 +1890,11 @@ form .form-control:focus {
 
     .header .offcanvas .offcanvas-body {
         padding-top: 120px;
+        overflow: hidden;
+    }
+    .header .offcanvas .offcanvas-body .innerlinks {
+        overflow: hidden auto;
+        height: 100%;
     }
 
     .header .offcanvas-backdrop {

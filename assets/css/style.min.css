@@ -117,6 +117,9 @@ body {
     margin: 0px;
     padding: 0px;
 }
+html, body{
+    overflow: hidden auto;
+}
 
 ::before,
 ::after,
@@ -1460,6 +1463,7 @@ form .form-control:focus {
 
 .offer-section .card .card-body .title {
     margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .offer-section .card:hover {
